@@ -1,0 +1,7 @@
+$icons: 'admin','back','bookshelf','collection','copies','loan','profile','profile-edit','search','shelf','star';
+
+@each $icon in $icons {
+    .#{$icon} a{
+        background-image:url(../images/#{$icon}.svg);
+    }
+}

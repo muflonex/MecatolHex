@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Ambit";
+  src: url("Ambit-Light.eot");
+  src: url("Ambit-Light.eot?#iefix") format("embedded-opentype"),
+    url("Ambit-Light.woff") format("woff"),
+    url("Ambit-Light.ttf") format("truetype"),
+    url("Ambit-Light.svg#Ambit-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ambit";
+  src: url("Ambit-Bold.eot");
+  src: url("Ambit-Bold.eot?#iefix") format("embedded-opentype"),
+    url("Ambit-Bold.woff") format("woff"),
+    url("Ambit-Bold.ttf") format("truetype"),
+    url("Ambit-Bold.svg#Ambit-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Global";
+  src: url("Global-Medium.eot");
+  src: url("Global-Medium.eot?#iefix") format("embedded-opentype"),
+    url("Global-Medium.woff") format("woff"),
+    url("Global-Medium.ttf") format("truetype"),
+    url("Global-Medium.svg#Global-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+$base-font-size: 14px;
+$site-title-size: 2rem;
+$page-title-size: 1.4rem;
+$subtitle-size: 1rem;
+$element-title-size: 1em;
+$small-text: 0.8em;
+
+$light-red: #cf9999;
+$red:       #BF031F;
+$dark-red:  #850014;
+$dark-blue: #0c3590;
+$light-green: #bdd887;
+$dark-green: #186818;
+$blue:      #e8f0fe;
+$light-grey: #edf1f8d7;

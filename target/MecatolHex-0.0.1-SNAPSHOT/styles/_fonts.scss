@@ -1,0 +1,50 @@
+/* Typography */
+html {
+    font-size: $base-font-size;
+}
+body {
+    font-family: 'Ambit',Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+h1,h3 {
+    margin: 0;
+    line-height: 1.2em;
+}
+h1 {
+    font-size: $site-title-size;
+    font-family: 'Global', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    margin: 10px;
+    font-size: $page-title-size;
+}
+h3 {
+    font-size: $element-title-size;
+    font-family: 'Ambit', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+a {
+    display: inline-block;
+    text-decoration: none !important;
+    color: $red;
+}
+
+header h2 {
+    text-align: center;
+}
+.subtitle {
+    font-size: $subtitle-size;
+    font-weight: normal;
+    font-family: 'Global', Helvetica, Arial, sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+.button {
+    font-family: 'Global', Helvetica, Arial, sans-serif;
+}
+
+.red {
+    color: $red;
+}

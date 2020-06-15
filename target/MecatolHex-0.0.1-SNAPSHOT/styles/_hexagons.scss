@@ -1,0 +1,67 @@
+.menu {
+    display: grid;
+    grid-gap: 2vmin;
+    grid-auto-rows: 90px;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        ".. h1 h1 h2 h2 .."
+        ".. .. h3 h3 h4 h4"
+		".. h5 h5 h6 h6 ..";
+	transform: rotate(90deg);
+	&.single {
+		grid-template-areas:
+        ".. .. .. .. .. .."
+        ".. .. h1 h1 .. .."
+		".. .. .. .. .. ..";
+		.hex__item:nth-child(1){
+			transform: none;
+		}
+	}
+	.hex__item {
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+		background: black;
+		min-width: 90px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		@for $i from 1 through 6 {
+			&:nth-child(#{$i}) {
+				grid-area: h#{$i};
+			}
+		}
+		&:nth-child(1),
+		&:nth-child(2){
+			transform: translateY(25px);
+		}
+		&:nth-child(3){
+			background-color: $red;
+			.hex__content {
+				background-color: inherit;
+			}
+		}
+		.hex__content {
+			transform: rotate(-90deg);
+			width: calc(100% - 2px);
+			height: calc(100% - 2px);
+			display: flex;
+			color:transparent;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
+			background-size: 45%;
+    		background-repeat: no-repeat;
+    		background-position: 50% 50%;
+			transition: background-color .5s ease-in-out, color .75s ease-in-out; 
+		}
+		&.hidden{
+			visibility: hidden;
+		}
+		&:hover:not(:nth-child(3)){
+			.hex__content{
+				background: white;
+				color:black;
+			}
+		}
+	}
+}

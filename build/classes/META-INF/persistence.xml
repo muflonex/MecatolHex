@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="MecatolHex" transaction-type="RESOURCE_LOCAL">
+		<class>modelo.beans.Categoria</class>
+		<class>modelo.beans.Copia</class>
+		<class>modelo.beans.Direccion</class>
+		<class>modelo.beans.Estante</class>
+		<class>modelo.beans.Estanteria</class>
+		<class>modelo.beans.Juego</class>
+		<class>modelo.beans.Mecanica</class>
+		<class>modelo.beans.Prestamo</class>
+		<class>modelo.beans.Usuario</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mariadb://localhost:3308/catalogo_juegos"/>
+			<property name="javax.persistence.jdbc.user" value="muflonex"/>
+			<property name="javax.persistence.jdbc.password" value="PzfIVS*82"/>
+			<property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>

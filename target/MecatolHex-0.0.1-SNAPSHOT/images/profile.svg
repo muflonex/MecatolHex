@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Capa_1"
+   data-name="Capa 1"
+   viewBox="0 0 62.230053 67.069865"
+   version="1.1"
+   sodipodi:docname="profile.svg"
+   width="62.230053"
+   height="67.069862"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata5257">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>perfil</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1690"
+     inkscape:window-height="970"
+     id="namedview5255"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.0105429"
+     inkscape:cx="15.445614"
+     inkscape:cy="35.992758"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Capa_1"
+     inkscape:pagecheckerboard="true" />
+  <defs
+     id="defs5248">
+    <style
+       id="style5246">.cls-1{fill:#fff;}</style>
+  </defs>
+  <title
+     id="title5250">perfil</title>
+  <path
+     class="cls-1"
+     d="m 33.988435,36.337218 a 15.346319,15.346319 0 1 0 -5.461533,0 26.277828,26.277828 0 0 0 -23.5343995,26.16809 H 57.522834 A 26.277828,26.277828 0 0 0 33.988435,36.337218 Z"
+     id="path5252"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;stroke-width:0.84413195" />
+</svg>
